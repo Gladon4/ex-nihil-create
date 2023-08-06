@@ -9,22 +9,17 @@
       "modid": "exnihilosequentia"
     }
   ],
-  "type": "create:mixing",
+  "type": "create:splashing",
   "ingredients": [
     {
       "item": "minecraft:sand"
-    },
-    {
-      "fluid": "minecraft:water",
-      "nbt": {},
-      "amount": 50
     }
   ],
   "results": [
     {
       "item": "minecraft:clay_ball",
       "count": 1,
-      "chance": 0.1
+      "chance": 0.25
     },
     {
       "item": "create:zinc_nugget",

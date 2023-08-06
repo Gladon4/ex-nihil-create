@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "key": {
+    "A": {
+      "item": "create:empty_blaze_burner"
+    },
+    "I": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "create:blaze_burner"
+  }
+}

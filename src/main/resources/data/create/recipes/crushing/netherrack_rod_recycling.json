@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ex_nihilo_create:netherrack_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:cinder_flour",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 250
+}
