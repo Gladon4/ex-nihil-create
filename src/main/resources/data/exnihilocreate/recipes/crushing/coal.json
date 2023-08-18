@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "ex_nihilo_create:coal_dust"
+    },
+    {
+      "item": "ex_nihilo_create:coal_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

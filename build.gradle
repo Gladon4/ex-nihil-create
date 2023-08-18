@@ -143,6 +143,10 @@ dependencies {
     runtimeOnly fg.deobf("simibubi:create-1.19.2:0.5.1.c")
     runtimeOnly fg.deobf("novamachina.exnihilosequentia:ExNihiloSequentia-1.19.2:4.2.0.55")
     runtimeOnly fg.deobf("mezz:jei-1.19.2:forge-11.6.0.1016")
+    runtimeOnly fg.deobf("cofh:cofh_core-1.19.2:10.2.1.40")
+    runtimeOnly fg.deobf("cofh:thermal_foundation:1.19.2-10.2.0.47")
+    runtimeOnly fg.deobf("cofh:thermal_integration:1.19.2-10.2.0.17")
+    runtimeOnly fg.deobf("cofh:thermal_expansion:1.19.2-10.2.0.21")
 
 
     // For more info...

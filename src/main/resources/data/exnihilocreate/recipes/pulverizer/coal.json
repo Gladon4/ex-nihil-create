@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    }
+  ],
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": [
+    {
+      "item": "ex_nihilo_create:coal_dust",
+      "chance": 1.5
+    }
+  ],
+  "experience": 0.5
+}

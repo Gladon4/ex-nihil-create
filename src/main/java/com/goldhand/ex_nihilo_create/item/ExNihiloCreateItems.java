@@ -14,7 +14,12 @@ public class ExNihiloCreateItems {
     public static final RegistryObject<Item> NETHERRACK_ROD = ITEMS.register("netherrack_rod",
             () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
 
+    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust",
+            () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
+
+
 }
