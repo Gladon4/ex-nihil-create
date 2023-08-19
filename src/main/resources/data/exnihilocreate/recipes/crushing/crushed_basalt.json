@@ -3,18 +3,22 @@
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
     }
   ],
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "minecraft:coals"
+      "item": "exnihilosequentia:crushed_basalt"
     }
   ],
   "results": [
     {
-      "item": "ex_nihilo_create:coal_dust",
-      "count": 2
+      "item": "minecraft:coal",
+      "chance": 0.75
     }
   ],
   "processingTime": 250

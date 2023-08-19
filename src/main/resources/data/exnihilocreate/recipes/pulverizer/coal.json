@@ -7,12 +7,12 @@
   ],
   "type": "thermal:pulverizer",
   "ingredient": {
-    "item": "minecraft:coal"
+    "tag": "minecraft:coals"
   },
   "result": [
     {
       "item": "ex_nihilo_create:coal_dust",
-      "chance": 1.5
+      "count": 2
     }
   ],
   "experience": 0.5

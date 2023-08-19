@@ -5,15 +5,15 @@
       "modid": "create"
     }
   ],
-  "type": "create:crushing",
+  "type": "create:cutting",
   "ingredients": [
     {
-      "tag": "minecraft:coals"
+      "item": "minecraft:netherrack"
     }
   ],
   "results": [
     {
-      "item": "ex_nihilo_create:coal_dust",
+      "item": "ex_nihilo_create:netherrack_rod",
       "count": 2
     }
   ],

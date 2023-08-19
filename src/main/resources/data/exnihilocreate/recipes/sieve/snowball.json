@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exnihilosequentia"
+    }
+  ],
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "tag": "minecraft:dirt"
+  },
+  "result": {
+    "item": "minecraft:snowball"
+  },
+  "rolls": [
+    {
+      "chance": 0.01,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.01,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.01,
+      "mesh": "diamond"
+    }
+  ]
+}

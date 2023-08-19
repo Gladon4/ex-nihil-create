@@ -5,7 +5,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '0.0.2-1.19'
+version = '0.0.3-1.19'
 group = 'com.goldhand.ex_nihilo_create' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ex_nihilo_create'
 
@@ -147,6 +147,8 @@ dependencies {
     runtimeOnly fg.deobf("cofh:thermal_foundation:1.19.2-10.2.0.47")
     runtimeOnly fg.deobf("cofh:thermal_integration:1.19.2-10.2.0.17")
     runtimeOnly fg.deobf("cofh:thermal_expansion:1.19.2-10.2.0.21")
+    runtimeOnly fg.deobf("zerono:ExtremeReactors2:1.19.2-2.0.70")
+    runtimeOnly fg.deobf("zerono:ZeroCore2:1.19.2-2.1.39")
 
 
     // For more info...

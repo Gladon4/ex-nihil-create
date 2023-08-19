@@ -17,6 +17,12 @@ public class ExNihiloCreateItems {
     public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust",
             () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
 
+    public static final RegistryObject<Item> RAW_DIAMOND = ITEMS.register("raw_diamond",
+            () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
+
+    public static final RegistryObject<Item> FLOWER_POLLEN = ITEMS.register("flower_pollen",
+            () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -5,17 +5,16 @@
       "modid": "create"
     }
   ],
-  "type": "create:crushing",
+  "type": "create:splashing",
   "ingredients": [
     {
-      "tag": "minecraft:coals"
+      "item": "minecraft:snow_block"
     }
   ],
   "results": [
     {
-      "item": "ex_nihilo_create:coal_dust",
-      "count": 2
+      "item": "minecraft:ice",
+      "chance": 0.5
     }
-  ],
-  "processingTime": 250
+  ]
 }

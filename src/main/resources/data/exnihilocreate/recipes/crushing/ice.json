@@ -8,14 +8,18 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "minecraft:coals"
+      "item": "minecraft:ice"
     }
   ],
   "results": [
     {
-      "item": "ex_nihilo_create:coal_dust",
-      "count": 2
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball",
+      "chance": 0.7
     }
+
   ],
   "processingTime": 250
 }
