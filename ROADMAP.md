@@ -47,7 +47,8 @@ Basalt: Blue ice over Lava over Soulsoil (Consumes Lava)
   - Lava + Ice + Soulsoil (All renewable) -> Basalt -> Crushing -> Crushed Basalt -> Crushing
 - [x] Rose Gold
   - Copper + Gold
-- [ ] Yelloirum
+- [x] Yelloirum
+  - Glowstone + Graphite -> Mixing -> Glowing Graphite + Nether Brick -> Compacting -> Glowing Graphite Nether Brick -> Superheated Compacting
 - [ ] Unranium
   - Almost everything should also work with Yelloirum
 - [ ] Other Extreme Reactor Ingots?

@@ -23,6 +23,12 @@ public class ExNihiloCreateItems {
     public static final RegistryObject<Item> FLOWER_POLLEN = ITEMS.register("flower_pollen",
             () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
 
+    public static final RegistryObject<Item> GLOWING_GRAPHITE_DUST = ITEMS.register("glowing_graphite_dust",
+            () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
+
+    public static final RegistryObject<Item> GLOWING_GRAPHITE_NETHER_BRICK = ITEMS.register("glowing_graphite_nether_brick",
+            () -> new Item(new Item.Properties().tab(ExNihiloCreateCreativeTab.EX_NIHILO_CREATE_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

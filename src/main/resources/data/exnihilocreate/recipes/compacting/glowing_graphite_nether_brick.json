@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "item": "ex_nihilo_create:glowing_graphite_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "ex_nihilo_create:glowing_graphite_nether_brick"
+    }
+  ],
+  "heatRequirement": "heated"
+}

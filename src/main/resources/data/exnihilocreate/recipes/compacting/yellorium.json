@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "ex_nihilo_create:glowing_graphite_nether_brick"
+    }
+  ],
+  "results": [
+    {
+      "item": "bigreactors:yellorium_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

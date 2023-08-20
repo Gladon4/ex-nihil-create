@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "bigreactors:graphite_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "bigreactors:graphite_dust"
+    }
+  ],
+  "processingTime": 250
+}
