@@ -1,9 +1,31 @@
-# Blocks
-Cobble: Lava + Water
-Scoria: Lava + Chocolate
-Limestone: Lava + Honey
-Basalt: Blue ice over Lava over Soulsoil (Consumes Lava)
+# Mod pack not Mod
+Probably remove the Thermal Stone Gen
 
+# Blocks
+- [x] Cobble
+  - Lava + Water
+- [x] Scoria
+  - Lava + Chocolate
+- [x] Limestone 
+  - Lava + Honey
+- [x] Basalt
+  - Blue ice over Lava over Soulsoil (Consumes Lava)
+- [ ] Blackstone
+  - ?TODO Scoria
+- [x] Andesite
+  - Cobble + Quartz 
+- [x] Diorite
+  - Andesite + Quartz
+- [x] Soulsand
+  - ?TODO
+- [x] Ice
+  - Dirt -> Sieve -> Snow -> Washing, Ice+Water -> Mixing
+- [ ] Calcite
+  - Limestone -> Crushing -> ?TODO Lime -> Compacting (Water?)
+  - (If Crushed Calcite exists in Ex:Nihilo, then use as intermediary to Lime)
+  - Crushing Calcite prob. gives Crushed Calcite and crushing again then Lime
+- [ ] Deepslate
+  - ?TODO: Something Stone Compacting
 
 # Ores / Ingots
 - [x] Iron
